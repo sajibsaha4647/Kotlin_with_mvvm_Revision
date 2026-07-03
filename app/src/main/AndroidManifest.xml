@@ -12,16 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Two_days_challenge">
         <activity
-            android:name=".View.main.SplashActivity"
-            android:exported="false" />
-        <activity
-            android:name=".View.main.MainActivity"
+            android:name=".View.main.EmptyActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.main.MainActivity"
+            android:exported="true">
+
         </activity>
     </application>
 

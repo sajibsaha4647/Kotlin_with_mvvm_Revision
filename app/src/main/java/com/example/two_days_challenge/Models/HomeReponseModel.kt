@@ -1,4 +1,8 @@
 package com.example.two_days_challenge.Models
 
-class HomeReponseModel {
-}
+// data/model/Post.kt
+data class Post(
+    val id: Int,
+    val title: String,
+    val body: String
+)

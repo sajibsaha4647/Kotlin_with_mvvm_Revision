@@ -1,4 +1,8 @@
 package com.example.two_days_challenge.Viewmodel
 
-class HomeViewModel {
+import androidx.lifecycle.ViewModel
+
+class HomeViewModel : ViewModel(){
+
+
 }
